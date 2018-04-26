@@ -26,5 +26,13 @@ namespace MVCTESTSITE.Controllers
 
             return View();
         }
+        /// <summary>
+        /// 首页
+        /// </summary>
+        public ActionResult Indexpass()
+        {
+            ViewBag.Message = "indexpass.";
+            return View();
+        }
     }
 }
