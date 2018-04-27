@@ -273,6 +273,10 @@
     <Content Include="Views\Home\indexpass1.cshtml" />
     <Content Include="Views\Home\View2.cshtml" />
     <Content Include="Views\Home\wq.cshtml" />
+    <Content Include="Views\Shared\LeftMenuPartail.cshtml" />
+    <Content Include="Views\Shared\_LayoutFoot.cshtml" />
+    <Content Include="Views\Shared\_LayoutHead.cshtml" />
+    <Content Include="Views\Shared\_LayoutLeftMenu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
