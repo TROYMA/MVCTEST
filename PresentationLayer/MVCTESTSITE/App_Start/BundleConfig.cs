@@ -21,11 +21,17 @@ namespace MVCTESTSITE
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
+                      "~/Scripts/bootstrap-tour/bootstrap-tour.custom.js",
+                      "~/Scripts/jquery-slimscroll/jquery.slimscroll.min.js",
+                      "~/Scripts/king-common.js",
+                      "~/Scripts/king-table.js",
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                     //"~/Content/main1.css",
+                     //"~/Content/navigation.css",                     
+                     //"~/Content/theme.css",
                      "~/Content/main.css",
-                     "~/Content/theme.css",
                      "~/Content/font-awesome.css",
                       "~/Content/bootstrap.css",
                      "~/Content/bootstrap-theme.css",
