@@ -765,7 +765,6 @@
     <Content Include="Tmplate1\stylesheets\premium.css" />
     <Content Include="Tmplate1\stylesheets\theme.css" />
     <Content Include="Tmplate1\terms-and-conditions.html" />
-    <Content Include="Tmplate1\user.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
